@@ -9,4 +9,9 @@ def main(a):
     Returns:
         boolean: True if the resulting number is less than or equal to the old number, otherwise return False.
     """
-    return
+    Replace=(a%10)*10+a//10
+    if a>=Replace:
+        return True
+    else:
+        return False
+print(main(45))
