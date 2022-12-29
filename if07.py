@@ -23,5 +23,5 @@ def main(a):
         if a%2!=0:
             return "negative odd number"
     if a==0:
-        return "the number zero"
+        return "the number is zero"
 print(main(45))
