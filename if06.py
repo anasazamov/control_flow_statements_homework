@@ -22,11 +22,11 @@ def main(a,b,c):
     if c>0:
         pos+=1
     if a<0:
-        pos+=1
+        neg+=1
     if b<0:
-        pos+=1
+        neg+=1
     if c<0:
-        pos+=1
+        neg+=1
     if pos>neg:
         return "there are a lot of positive numbers"
     else:
